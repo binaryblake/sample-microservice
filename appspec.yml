@@ -1,0 +1,3 @@
+files:
+  - source: target
+    destination: /home/ec2-user
