@@ -1,2 +1,2 @@
 fuser -k 7443/tcp
-rm *.jar*
+rm /home/ec2-user/sample-mircroservice-0.0.1-SNAPSHOT.jar
