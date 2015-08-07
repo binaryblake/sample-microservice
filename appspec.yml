@@ -3,3 +3,9 @@ os: linux
 files:
   - source: target
     destination: /home/ec2-user
+  - source: scripts
+    destination: /home/ec2-user
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: root
